@@ -24,10 +24,14 @@ Próximamente disponible en Netlify/Vercel.
 ## 📂 Estructura del proyecto
 
 /src
-├── /components # Componentes: Hero, Footer, Destinos...
-├── /layouts # Layout principal de la página
-├── /pages # index.astro (home)
-├── /assets # Imágenes, íconos, capturas
+├── /components       # Componentes reutilizables (Hero, Footer, etc.)
+├── /layouts          # Layout base con header/footer
+├── /pages            # Páginas del sitio (index.astro, etc.)
+├── /assets           # Recursos estáticos
+│   ├── /img          # Imágenes generales del sitio
+│   ├── /icons        # SVGs o íconos individuales
+│   └── /fonts        # Fuentes personalizadas
+├── styles.css        # Estilos globales
 
 ---
 
